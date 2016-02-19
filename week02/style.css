@@ -6,7 +6,12 @@ li{
 }
 
 #PageHeader{
-    background-color: #eeeeee;
+    background-color: #fff;
+}
+#PageHeader h1{
+    display: inline-block;
+    font-family: Century Gothic, sans-serif;
+    font-size: 36px;
 }
 
 #SiteNavigation{
@@ -24,8 +29,28 @@ li{
     font-weight: 700;
 }
 
+.BlogPost{
+    width: 60%;
+    display: inline-block;
+    position: absolute;
+}
+
 .BlogPostTitle{
     color: #ff0000;
     font-family: Georgia;
 }
+
+.BlogPostContent, .BlogPostDate{
+    font-family: Verdana, sans-serif;
+}
+
+
+.column-right{
+    display: inline-block;
+    width: 35%;
+    position: relative;
+    float: right;
+}
+
+
 
