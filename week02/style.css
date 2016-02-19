@@ -1,7 +1,16 @@
-
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
 
 #PageHeader{
     background-color: #eeeeee;
+}
+
+#SiteNavigation{
+
 }
 
 .BlogPostTitle{
