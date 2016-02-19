@@ -10,9 +10,22 @@ li{
 }
 
 #SiteNavigation{
-
+    background-color: #3F5A85;
+}
+#SiteNavigation ul li{
+    display: inline-block;
+    padding-left: 50px;
+    font-family: Century Gothic, sans-serif;
+}
+#SiteNavigation ul li a{
+    color: #eeeeee;
+}
+#SiteNavigation ul li a:hover{
+    font-weight: 700;
 }
 
 .BlogPostTitle{
     color: #ff0000;
+    font-family: Georgia;
 }
+
